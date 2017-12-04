@@ -363,6 +363,7 @@ and our administrator may contact you if we need any extra information.</h4>
       <li>Writing simple assertions</li>
       <li>Debugging, traceback and errors</li>
       <li>Using <code>numpy</code>, <code>pandas</code> and <code>xarray</code> for scientific data analysis</li>
+      <li><a href="{{site.swc_pages}}/python-novice-inflammation/reference/">Reference...</a></li>
     </ul>
   </div>
 </div>
