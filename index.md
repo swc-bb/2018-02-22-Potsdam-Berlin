@@ -5,7 +5,7 @@ venue: "Potsdam Institute for Climate Impact Research (PIK), Potsdam, Germany"  
 address: "Albert-Einstein Wissenschaftspark, Telegrafenberg A 31, 14473 Potsdam, Germany"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "de"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
-latlng: "FIXME"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
+latlng: "52.379622, 13.062263"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
 humandate: "Feb 22-23, 2018"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "09:00 am - 18:00 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2018-02-22      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
@@ -59,6 +59,15 @@ and our administrator may contact you if we need any extra information.</h4>
   Edit the general explanatory paragraph below if you want to change
   the pitch.
 {% endcomment %}
+
+<p>
+	This workshop is a <strong>Python-Workshop</strong> with a focus on scientific computing and reproducible research. 
+	Everyone with solid basic knowledge of Python or a similar scripting language, such as R or Matlab, among others,
+	is invited to <strong>join and getting in touch with tools and structures to write scientific code with a high-quality, 
+	that is reproducible and follows a well-documented standard</strong>.
+</p>
+
+
 {% if page.carpentry == "swc" %}
   {% include sc/intro.html %}
 {% elsif page.carpentry == "dc" %}
@@ -66,6 +75,9 @@ and our administrator may contact you if we need any extra information.</h4>
 {% elsif page.carpentry == "lc" %}
   {% include lc/intro.html %}
 {% endif %}
+
+
+
 
 {% comment %}
   AUDIENCE
