@@ -249,7 +249,7 @@ and our administrator may contact you if we need any extra information.</h4>
 
 <div class="row">
   <div class="col-md-6">
-    <h3>Day 1</h3>
+    <h3>Day 1 - 2018/02/22</h3>
     <table class="table table-striped">
       <tr> <td>09:00</td>  <td>Arrival & coffee</td> </tr>
       <tr> <td>09:30</td> <td>Welcome & introduction</td> </tr>
@@ -258,23 +258,23 @@ and our administrator may contact you if we need any extra information.</h4>
       <tr> <td>11:00</td>  <td>Coffee</td> </tr>
       <tr> <td>11:30</td>  <td>The Unix Shell</td> </tr>
       <tr> <td>13:00</td>  <td>Lunch</td> </tr>
-      <tr> <td>14:00</td>  <td>Version Control with Git (and Gitlab)</td> </tr>
+      <tr> <td>14:00</td>  <td>Version Control with Git</td> </tr>
       <tr> <td>15:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>16:00</td>  <td>Introduction to R and Rstudio & Project Management</td> </tr>
-      <tr> <td>17:30</td>  <td>Wrap-up</td> </tr>
+      <tr> <td>16:00</td>  <td>Introduction to Python</td> </tr>
+      <tr> <td>18:00</td>  <td>End Day 1</td> </tr>
     </table>
   </div>
   <div class="col-md-6">
-    <h3>Day 2</h3>
+    <h3>Day 2 - 2018/02/23</h3>
     <table class="table table-striped">
       <tr> <td>09:00</td>  <td>Arrival & coffee</td> </tr>
-      <tr> <td>09:30</td> <td>Functions and Unittests</td> </tr>
+      <tr> <td>09:30</td> <td>Functions and Code Structures</td> </tr>
       <tr> <td>11:00</td>  <td>Coffee</td> </tr>
-      <tr> <td>11:30</td>  <td>Code optimization (Vectorization, profiling, parallelization)</td> </tr>
+      <tr> <td>11:30</td>  <td>Defensive Programming</td> </tr>
       <tr> <td>13:00</td>  <td>Lunch</td> </tr>
-      <tr> <td>14:00</td>  <td>Debugging und Packages</td> </tr>
+      <tr> <td>14:00</td>  <td>Applyied Data Analysis I: Time Series</td> </tr>
       <tr> <td>15:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>16:00</td>  <td>Tidyverse and ggplot</td> </tr>
+      <tr> <td>16:00</td>  <td>Git in practice or Applyied Data Analysis II: Higher Dimensional (Spatial) Data</td> </tr>
       <tr> <td>17:30</td>  <td>Wrap-up</td> </tr>
     </table>
   </div>
@@ -672,7 +672,7 @@ and our administrator may contact you if we need any extra information.</h4>
 {% endcomment %}
 </div> {% comment %} End of 'Python' section. {% endcomment %}
 
-<div id="r"> {% comment %} Start of 'R' section. {% endcomment %}
+<div id="r"> {% comment %} Start of 'R' section. 
   <h3>R</h3>
 
   <p>
@@ -840,4 +840,5 @@ and our administrator may contact you if we need any extra information.</h4>
     </li>
   </ol>
 </div>
+{% endcomment %}
 {% endcomment %}
