@@ -46,7 +46,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 </iframe>
 {% endif %}
 
-<h3>An Introduction to Scientific Computing and Reproducible Research with Python</h3>
+<h1>An Introduction to Scientific Computing and Reproducible Research</h1>
 
 
 <p>
