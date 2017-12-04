@@ -67,7 +67,6 @@ and our administrator may contact you if we need any extra information.</h4>
 	that is reproducible and follows a well-documented standard</strong>.
 </p>
 
-
 {% if page.carpentry == "swc" %}
   {% include sc/intro.html %}
 {% elsif page.carpentry == "dc" %}
@@ -84,6 +83,15 @@ and our administrator may contact you if we need any extra information.</h4>
 
   Explain who your audience is.  (In particular, tell readers if the
   workshop is only open to people from a particular institution.
+  
+  {% if page.carpentry == "swc" %}
+  	{% include sc/who.html %}
+  {% elsif page.carpentry == "dc" %}
+  	{% include dc/who.html %}
+  {% elsif page.carpentry == "lc" %}
+  	{% include lc/who.html %}
+  {% endif %}
+
 {% endcomment %}
 
 <p id="who">
@@ -93,16 +101,6 @@ and our administrator may contact you if we need any extra information.</h4>
 	<strong>Basic knowledge of Python or a similar scripting language is required.</strong>
 	We start the workshop with an introduction to Python to get everyone on board.
 </p>
-
-{% if page.carpentry == "swc" %}
-  {% include sc/who.html %}
-{% elsif page.carpentry == "dc" %}
-  {% include dc/who.html %}
-{% elsif page.carpentry == "lc" %}
-  {% include lc/who.html %}
-{% endif %}
-
-
 
 
 {% comment %}
@@ -155,6 +153,7 @@ and our administrator may contact you if we need any extra information.</h4>
   Library Carpentry's
   {% endif %}
   <a href="{{site.swc_site}}/conduct.html">Code of Conduct</a>.
+  MORE NOTES ON SOFTWARE SETUP....software installation meet-up, USB-stick, ...
 </p>
 
 {% comment %}
@@ -173,12 +172,11 @@ and our administrator may contact you if we need any extra information.</h4>
   <li>Accessible restrooms are available.</li>
 </ul>
 <p>
-  Materials will be provided in advance of the workshop and
-  large-print handouts are available if needed by notifying the
-  organizers in advance.  If we can help making learning easier for
-  you (e.g. sign-language interpreters, lactation facilities) please
-  get in touch (using contact details below) and we will
-  attempt to provide them.
+  	Materials will be made available during the workshop and handouts are available 
+	if needed by notifying the organizers in advance.  
+	If we can help making learning easier for you (e.g. sign-language interpreters, 
+	lactation facilities) please get in touch (using contact details below) and we will
+	attempt to provide them.
 </p>
 
 {% comment %}
@@ -204,6 +202,13 @@ and our administrator may contact you if we need any extra information.</h4>
     to-be-announced
   {% endif %}
   for more information.
+</p>
+
+<p>
+  <strong>Organization:</strong>
+  	We're happy to announce that these workshops are jointly organised by Potsdam Institute for 
+	Climate Impact Research (PIK), GFZ German Research Centre for Geosciences, University of Potsdam (UP), 
+	and others.
 </p>
 
 <hr/>
@@ -232,6 +237,7 @@ and our administrator may contact you if we need any extra information.</h4>
 {% endif %}
 
 
+{% comment %} 
 {% if page.carpentry == "swc" %}
   {% include sc/schedule.html %}
 {% elsif page.carpentry == "dc" %}
@@ -239,6 +245,41 @@ and our administrator may contact you if we need any extra information.</h4>
 {% elsif page.carpentry == "lc" %}
   {% include lc/schedule.html %}
 {% endif %}
+{% endcomment %}
+
+<div class="row">
+  <div class="col-md-6">
+    <h3>Day 1</h3>
+    <table class="table table-striped">
+      <tr> <td>09:00</td>  <td>Arrival & coffee</td> </tr>
+      <tr> <td>09:30</td> <td>Welcome & introduction</td> </tr>
+      <tr> <td>09:45</td>  <td>Lightning talks by participants</td> </tr>
+      <tr> <td>10:30</td>  <td>Software set-up</td> </tr>
+      <tr> <td>11:00</td>  <td>Coffee</td> </tr>
+      <tr> <td>11:30</td>  <td>The Unix Shell</td> </tr>
+      <tr> <td>13:00</td>  <td>Lunch</td> </tr>
+      <tr> <td>14:00</td>  <td>Version Control with Git (and Gitlab)</td> </tr>
+      <tr> <td>15:30</td>  <td>Coffee</td> </tr>
+      <tr> <td>16:00</td>  <td>Introduction to R and Rstudio & Project Management</td> </tr>
+      <tr> <td>17:30</td>  <td>Wrap-up</td> </tr>
+    </table>
+  </div>
+  <div class="col-md-6">
+    <h3>Day 2</h3>
+    <table class="table table-striped">
+      <tr> <td>09:00</td>  <td>Arrival & coffee</td> </tr>
+      <tr> <td>09:30</td> <td>Functions and Unittests</td> </tr>
+      <tr> <td>11:00</td>  <td>Coffee</td> </tr>
+      <tr> <td>11:30</td>  <td>Code optimization (Vectorization, profiling, parallelization)</td> </tr>
+      <tr> <td>13:00</td>  <td>Lunch</td> </tr>
+      <tr> <td>14:00</td>  <td>Debugging und Packages</td> </tr>
+      <tr> <td>15:30</td>  <td>Coffee</td> </tr>
+      <tr> <td>16:00</td>  <td>Tidyverse and ggplot</td> </tr>
+      <tr> <td>17:30</td>  <td>Wrap-up</td> </tr>
+    </table>
+  </div>
+</div>
+
 
 {% comment %}
   Collaborative Notes
