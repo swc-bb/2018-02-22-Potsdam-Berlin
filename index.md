@@ -315,16 +315,57 @@ and our administrator may contact you if we need any extra information.</h4>
   This is one of the places where people frequently make mistakes, so
   please preview your site before committing, and make sure to run
   'tools/check' as well.
-{% endcomment %}
-<h2 id="syllabus">Syllabus</h2>
-
-{% if page.carpentry == "swc" %}
+  
+  {% if page.carpentry == "swc" %}
   {% include sc/syllabus.html %}
 {% elsif page.carpentry == "dc" %}
   {% include dc/syllabus.html %}
 {% elsif page.carpentry == "lc" %}
   {% include lc/syllabus.html %}
 {% endif %}
+
+{% endcomment %}
+<h2 id="syllabus">Syllabus</h2>
+
+<div class="row">
+  <div class="col-md-6">
+    <h3 id="syllabus-shell">The Unix Shell</h3>
+    <ul>
+      <li>Files and directories</li>
+      <li>History and tab completion</li>
+      <li>Pipes and redirection</li>
+      <li>Looping over files</li>
+      <li>Creating and running shell scripts</li>
+      <li>Finding things</li>
+      <li><a href="{{site.swc_pages}}/shell-novice/reference/">Reference...</a></li>
+    </ul>
+  </div>
+  <div class="col-md-6">
+    <h3 id="syllabus-git">Version Control with Git</h3>
+    <ul>
+      <li>Creating a repository</li>
+      <li>Recording changes to files: <code>add</code>, <code>commit</code>, ...</li>
+      <li>Viewing changes: <code>status</code>, <code>diff</code>, ...</li>
+      <li>Ignoring files</li>
+      <li>Resolving conflicts</li>
+      <li>Working on the web: <code>clone</code>, <code>pull</code>, <code>push</code>, ...</li>
+      <li>Where to host work, and why</li>
+      <li><a href="{{site.swc_pages}}/git-novice/reference/">Reference...</a></li>
+    </ul>
+  </div>
+  <div class="col-md-6">
+    <h3 id="syllabus-r">Programming with Python</h3>
+    <ul>
+      <li>Introduction to Python, Anaconda and Jupyter Notebooks</li>
+      <li>Writing functions and documentation</li>
+      <li>Writing modules and using version control</li>
+      <li>Magic function <code>%matplotlib inline</code>, <code>%timeit</code>, <code>%debug</code> and <code>%save</code> </li>
+      <li>Writing simple assertions</li>
+      <li>Debugging, traceback and errors</li>
+      <li>Using <code>numpy</code>, <code>pandas</code> and <code>xarray</code> for scientific data analysis</li>
+    </ul>
+  </div>
+</div>
 
 <hr/>
 
