@@ -62,7 +62,7 @@ and our administrator may contact you if we need any extra information.</h4>
 
 <p>
 	This workshop is a <strong>Python-Workshop</strong> with a focus on scientific computing and reproducible research. 
-	Everyone with solid basic knowledge of Python or a similar scripting language, such as R or Matlab, among others,
+	Everyone with basic knowledge of Python or a similar scripting language, such as R or Matlab, among others,
 	is invited to <strong>join and getting in touch with tools and structures to write scientific code with a high-quality, 
 	that is reproducible and follows a well-documented standard</strong>.
 </p>
@@ -85,6 +85,15 @@ and our administrator may contact you if we need any extra information.</h4>
   Explain who your audience is.  (In particular, tell readers if the
   workshop is only open to people from a particular institution.
 {% endcomment %}
+
+<p id="who">
+	<strong>Who:</strong>
+	The course aims at scientists and researchers who are interested in extending their skills in data processing
+	and techniques on "how to write good scientific code" and how to deal with this in a broader context.
+	<strong>Basic knowledge of Python or a similar scripting language is required.</strong>
+	We start the workshop with an introduction to Python to get everyone on board.
+</p>
+
 {% if page.carpentry == "swc" %}
   {% include sc/who.html %}
 {% elsif page.carpentry == "dc" %}
@@ -92,6 +101,9 @@ and our administrator may contact you if we need any extra information.</h4>
 {% elsif page.carpentry == "lc" %}
   {% include lc/who.html %}
 {% endif %}
+
+
+
 
 {% comment %}
   LOCATION
