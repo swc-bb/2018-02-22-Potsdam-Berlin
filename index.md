@@ -359,7 +359,7 @@ and our administrator may contact you if we need any extra information.</h4>
       <li>Introduction to Python, Anaconda and Jupyter Notebooks</li>
       <li>Writing functions and documentation</li>
       <li>Writing modules and using version control</li>
-      <li>Magic function <code>%matplotlib inline</code>, <code>%timeit</code>, <code>%debug</code> and <code>%save</code> </li>
+      <li>Magic functions <code>%matplotlib inline</code>, <code>%timeit</code>, <code>%debug</code> and <code>%save</code> </li>
       <li>Writing simple assertions</li>
       <li>Debugging, traceback and errors</li>
       <li>Using <code>numpy</code>, <code>pandas</code> and <code>xarray</code> for scientific data analysis</li>
