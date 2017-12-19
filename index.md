@@ -269,9 +269,9 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
       <tr> <td>11:00</td>  <td>Coffee</td> </tr>
       <tr> <td>11:30</td>  <td>Defensive Programming</td> </tr>
       <tr> <td>13:00</td>  <td>Lunch</td> </tr>
-      <tr> <td>14:00</td>  <td>Applyied Data Analysis I: Time Series</td> </tr>
+      <tr> <td>14:00</td>  <td>Applied Data Analysis I: Time Series</td> </tr>
       <tr> <td>15:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>16:00</td>  <td>Git in practice or Applyied Data Analysis II: Higher Dimensional (Spatial) Data</td> </tr>
+      <tr> <td>16:00</td>  <td>Git in practice or Applied Data Analysis II: Higher Dimensional (Spatial) Data</td> </tr>
       <tr> <td>17:30</td>  <td>Wrap-up</td> </tr>
     </table>
   </div>
