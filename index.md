@@ -1,8 +1,8 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
 carpentry: "swc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc")
-venue: "Potsdam Institute for Climate Impact Research (PIK), Potsdam, Germany"        # brief name of host site without address (e.g., "Euphoric State University")
-address: "Albert-Einstein Wissenschaftspark, Telegrafenberg A 31, 14473 Potsdam, Germany"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
+venue: "Albert Einstein Science Park, Potsdam, Germany"        # brief name of host site without address (e.g., "Euphoric State University")
+address: "Kuppel at PIK (Potsdam Institute for Climate Impact Research), Albert-Einstein Wissenschaftspark, Telegrafenberg, 14473 Potsdam"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "de"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
 latlng: "52.379622, 13.062263"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
@@ -168,12 +168,9 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 {% endcomment %}
 <p id="accessibility">
   <strong>Accessibility:</strong> 
-	We are committed to making this workshop accessible to everybody.
-  	Materials will be made available during the workshop and handouts are available 
-	if needed by notifying the organizers in advance.  
-	If we can help making learning easier for you (e.g. sign-language interpreters, 
-	lactation facilities) please get in touch (using contact details below) and we will
-	attempt to provide them.
+	We are committed to making this workshop
+  	accessible to everybody. Please contact the organisers if you have any 
+  	requirements and/or need assistance to access the workshop rooms.
 </p>
 
 {% comment %}
@@ -334,7 +331,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
       <li>Looping over files</li>
       <li>Creating and running shell scripts</li>
       <li>Finding things</li>
-      <li><a href="{{site.swc_pages}}/shell-novice/reference/">Reference...</a></li>
+      <!-- <li><a href="{{site.swc_pages}}/shell-novice/reference/">Reference...</a></li> -->
     </ul>
   </div>
   <div class="col-md-6">
@@ -347,7 +344,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
       <li>Resolving conflicts</li>
       <li>Working on the web: <code>clone</code>, <code>pull</code>, <code>push</code>, ...</li>
       <li>Where to host work, and why</li>
-      <li><a href="{{site.swc_pages}}/git-novice/reference/">Reference...</a></li>
+      <!-- <li><a href="{{site.swc_pages}}/git-novice/reference/">Reference...</a></li> -->
     </ul>
   </div>
   <div class="col-md-6">
@@ -360,7 +357,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
       <li>Writing simple assertions</li>
       <li>Debugging, traceback and errors</li>
       <li>Using <code>numpy</code>, <code>pandas</code> and <code>xarray</code> for scientific data analysis</li>
-      <li><a href="{{site.swc_pages}}/python-novice-inflammation/reference/">Reference...</a></li>
+      <!-- <li><a href="{{site.swc_pages}}/python-novice-inflammation/reference/">Reference...</a></li> -->
     </ul>
   </div>
 </div>
