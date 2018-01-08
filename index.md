@@ -340,9 +340,6 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
       <li>Recording changes to files: <code>add</code>, <code>commit</code>, ...</li>
       <li>Viewing changes: <code>status</code>, <code>diff</code>, ...</li>
       <li>Ignoring files</li>
-      <li>Resolving conflicts</li>
-      <li>Working on the web: <code>clone</code>, <code>pull</code>, <code>push</code>, ...</li>
-      <li>Where to host work, and why</li>
       <!-- <li><a href="{{site.swc_pages}}/git-novice/reference/">Reference...</a></li> -->
     </ul>
   </div>
