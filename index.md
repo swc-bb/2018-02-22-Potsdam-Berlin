@@ -139,8 +139,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 {% endcomment %}
 
 <p>
-  <strong>Application:</strong> Register online for the workshop by February 09, 2018. There are limited places available.
-	The application form if found <a href="https://goo.gl/forms/V3tMNPqs4PPUZ3Yy1">here</a>.
+  <strong>Application:</strong> Register online for the workshop by <strong>February 09, 2018</strong>. There are limited places available. The application form is found <a href="https://goo.gl/forms/V3tMNPqs4PPUZ3Yy1">here</a>.
 </p>
 
 {% comment %}
