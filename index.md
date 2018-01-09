@@ -143,9 +143,6 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 	The application form if found <a href="https://goo.gl/forms/V3tMNPqs4PPUZ3Yy1">here</a>.
 </p>
 
-https://goo.gl/forms/V3tMNPqs4PPUZ3Yy1
-
-
 {% comment %}
   SPECIAL REQUIREMENTS
 
