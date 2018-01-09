@@ -47,7 +47,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 {% endif %}
 
 <h1> Python Novice workshop </h1>
-<h1> An Introduction to Scientific Computing and Reproducible Research</h2>
+<h2> An Introduction to Scientific Computing and Reproducible Research</h2>
 
 <h2 id="general">General Information</h2>
 
