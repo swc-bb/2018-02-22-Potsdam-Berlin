@@ -46,14 +46,8 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 </iframe>
 {% endif %}
 
-<h1>An Introduction to Scientific Computing and Reproducible Research</h1>
-
-
-<p>
-	If you are running a self-organized workshop or have not put in a workshop request yet, please also fill in
-	<a href="{{site.amy_site}}/submit">this workshop request form</a> to let us know about your workshop
-	and our administrator may contact you if we need any extra information.
-</p>
+<h1> Python Novice workshop </h1>
+<h1> An Introduction to Scientific Computing and Reproducible Research</h2>
 
 <h2 id="general">General Information</h2>
 
@@ -65,10 +59,10 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 {% endcomment %}
 
 <p>
-	This workshop is a <strong>Python-Workshop</strong> with a focus on scientific computing and reproducible research. 
+	This workshop is a <strong>Python-Novice-Workshop</strong> with a focus on scientific computing and reproducible research. 
 	Everyone with basic knowledge of Python or a similar scripting language, such as R or Matlab, among others,
 	is invited to <strong>join and getting in touch with tools and structures to write scientific code with a high-quality, 
-	that is reproducible and follows a well-documented standard</strong>.
+	that is reproducible and follows a well-documented standard</strong>. If you know what a variable and a loop are, you are fine. If you wonder whether this workshop is appropriate for you, don't hesitate to get in touch. 
 </p>
 
 {% if page.carpentry == "swc" %}
@@ -100,9 +94,9 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 
 <p id="who">
 	<strong>Who:</strong>
-	The course aims at scientists and researchers who are interested in extending their skills in data processing
-	and techniques on "how to write good scientific code" and how to deal with this in a broader context.
-	<strong>Basic knowledge of Python or a similar scripting language is required.</strong>
+	The course aims at scientists and researchers who are interested in extending their skills in scientific programming
+	and techniques on "how to write good scientific code" as well as with the broader context.
+	<strong>Basic knowledge of Python or a similar scripting language is required.</strong> If you know what a loop and a variable are, you are fine. If in doubt, get in touch.
 	We start the workshop with an introduction to Python to get everyone on board.
 </p>
 
@@ -265,9 +259,9 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
       <tr> <td>11:00</td>  <td>Coffee</td> </tr>
       <tr> <td>11:30</td>  <td>Defensive Programming</td> </tr>
       <tr> <td>13:00</td>  <td>Lunch</td> </tr>
-      <tr> <td>14:00</td>  <td>Applied Data Analysis I: Time Series</td> </tr>
+      <tr> <td>14:00</td>  <td>Exploratory Data Analysis I: Time Series and plotting</td> </tr>
       <tr> <td>15:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>16:00</td>  <td>Git in practice or Applied Data Analysis II: Higher Dimensional (Spatial) Data</td> </tr>
+      <tr> <td>16:00</td>  <td>(optional) Exploratory Data Analysis II: Higher Dimensional (Spatial) Data</td> </tr>
       <tr> <td>17:30</td>  <td>Wrap-up</td> </tr>
     </table>
   </div>
