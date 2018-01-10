@@ -105,7 +105,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   LOCATION
 
   This block displays the address and links to maps showing directions
-  if the latitude and longitude of the workshop have been set.  You
+  if the latitude and longitude of the workshop have been set. You
   can use http://itouchmap.com/latlong.html to find the lat/long of an
   address.
 {% endcomment %}
@@ -365,7 +365,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 {% comment %}
   SETUP
 
-  Delete irrelevant sections from the setup instructions.  Each
+  Delete irrelevant sections from the setup instructions. Each
   section is inside a 'div' without any classes to make the beginning
   and end easier to find.
 
@@ -394,6 +394,12 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   that may be useful on the
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
+
+<h3>WiFi</h3>
+  <p> 
+    There will be an <strong>eduroam</strong> wlan during the workshop.
+    We will provide WiFi guest tickets as a backup as well.
+  </p> 
 
 <div id="shell"> {% comment %} Start of 'shell' section. {% endcomment %}
   <h3>The Bash Shell</h3>
