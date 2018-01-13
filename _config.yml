@@ -9,7 +9,7 @@ carpentry: "swc"
 title: "An Introduction to Scientific Computing and Reproducible Research"
 
 # Contact email address.
-email: lessons@software-carpentry.org
+email: swc-workshop-org@gfz-potsdam.de
 
 #------------------------------------------------------------
 # Generic settings (should not need to change).
