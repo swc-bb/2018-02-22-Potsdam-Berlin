@@ -217,7 +217,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 {% endcomment %}
 <h2 id="schedule">Schedule</h2>
 
-<!-- {% comment %} DO NOT EDIT SURVEY LINKS {% endcomment %}
+{% comment %} DO NOT EDIT SURVEY LINKS {% endcomment %}
 <p><em>Surveys</em></p>
 {% if page.carpentry == "swc" %} 
 <p>Please be sure to complete these surveys before and after the workshop.</p>
@@ -229,7 +229,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 <p><a href="{{ site.dc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
 {% elsif page.carpentry == "lc" %}
 <p>Ask your instructor about pre- and post-workshop Survey details.</p>
-{% endif %} -->
+{% endif %}
 
 
 
