@@ -11,7 +11,7 @@ humantime: "09:00 am - 18:00 pm"    # human-readable times for the workshop (e.g
 startdate: 2018-02-22      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2018-02-23        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Frank Hellmann (PIK)", "Sebastian Heimann (GFZ)", "Robert Gieseke (PIK)", "Joachim Krois (Charité)", "Stefan Lüdtke (GFZ)", "Peter Evans (GFZ)", "Knut Günther (GFZ)", "Martin Hammitzsch (GFZ)", "Marvin Reich (GFZ)", "Benoit Bovy (GFZ)", "Marius Isken (GFZ)"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["Berry Boessenkool (UP)", "Michel Wortmann (PIK)", "Daniel Beiter (GFZ)", "Daniel Kreyling (AWI)", "..."]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+helper: ["Berry Boessenkool (UP)", "Michel Wortmann (PIK)", "Daniel Beiter (GFZ)", "Daniel Kreyling (AWI)", "Katrin Leinweber (TIB)", "..."]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["swc-workshop-org@gfz-potsdam.de"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes: ["http://pad.software-carpentry.org/2018-02-22-Potsdam-Berlin"]            # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
