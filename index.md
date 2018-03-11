@@ -206,6 +206,11 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 	Climate Impact Research (PIK), GFZ German Research Centre for Geosciences, University of Potsdam (UP), Charité – Universitätsmedizin Berlin, and others.
 </p>
 
+<p>
+  <strong>Workshop materials:</strong>
+  	You may access the lessons and other workshop materials via our online repository <a href="https://github.com/swc-bb/4learners_python/tree/2018-02-22-python"><code>4learners</code></a>.	
+</p>
+
 <hr/>
 
 {% comment %}
